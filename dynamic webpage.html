@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Web Page</title>
+<style>
+body{
+text-align: center; margin-top: 60px;
+}
+#dchange { color:rgb(26, 26, 121 }
+</style>
+</head>
+<body>
+<h2>Dynamic WebPage Creation using JS and DOM</h2>
+<h4 id="dchange">Click to view</h4>
+
+
+<button onclick="Change_text()">Change text</button>
+<button onclick="Change_color()">Change colour</button>
+<button onclick="reset()">RESET</button>
+<script>
+function Change_text()
+{
+document.getElementById("dchange").innerHTML="Content Changed";
+ 
+}
+function Change_color()
+{
+document.getElementById("dchange").style.color="pink";
+}
+function reset()
+{
+document.getElementById("dchange").innerHTML="CLick to view"; document.getElementById("dchange").style.color="orange";
+}
+</script>
+</body>
+</html>
