@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>regisrtation-1</title>
+<style>
+.container{
+border:1px solid black; width:600px; height:400px;
+margin-left:300px; padding:15px;
+}
+.row{
+margin-bottom:7px; display:flex;
+}
+.column{ display:flex;
+flex-direction: column; width:100%;
+
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+<form>
+ 
+<h3>Registration form</h3>
+<div class="row">
+
+
+<div class="column">
+<label>Name</label>
+<input type="text" placeholder="Enter name">;
+</div>
+</div>
+<div class="row">
+<div class="column">
+<label>Email</label>
+<input type="email" placeholder="Enter email">
+</div>
+<div class="column">
+<label>phone</label>
+<input type="tel" placeholder="Enter phone">
+</div>
+</div>
+<div class="row">
+<div class="column">
+
+
+<label>Gender</label>
+<div>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</div>
+</div>
+<div class="column">
+<label>Date</label>
+ 
+<input type="Date">
+</div>
+</div>
+<div class="row">
+<div class="column">
+<label>Dept</label>
+<div>
+<input type="checkbox" name="dept">CSE
+<input type="checkbox" name="dept">MECH
+</div>
+</div>
+<div class="column">
+<label>Section</label>
+<select>
+
+
+<option>Elite</option>
+<option>Rangers</option>
+</select>
+</div>
+</div>
+<div class="row">
+<div class="column">
+
+
+<label>address</label>
+<textarea rows="4" col="30" maxlength="100" palceholder="Enter address"></textarea>
+</div>
+</div>
+<button type="Submit">Submit</button>
+ 
+</form>
+</div>
+</body>
+</html> 
